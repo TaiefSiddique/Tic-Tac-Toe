@@ -118,22 +118,22 @@ function calculateWinner(squares) {
 
 // ...
 
-Square.propTypes = {
-  value: PropTypes.oneOf(['X', 'O', null]),
-  onSquareClick: PropTypes.func.isRequired,
-};
+// Square.propTypes = {
+//   value: PropTypes.oneOf(['X', 'O', null]),
+//   onSquareClick: PropTypes.func.isRequired,
+// };
 
-Board.propTypes = {
-  xIsNext: PropTypes.bool.isRequired,
-  squares: PropTypes.arrayOf(PropTypes.oneOf(['X', 'O', null])).isRequired,
-  onPlay: PropTypes.func.isRequired,
-};
+// Board.propTypes = {
+//   xIsNext: PropTypes.bool.isRequired,
+//   squares: PropTypes.arrayOf(PropTypes.oneOf(['X', 'O', null])).isRequired,
+//   onPlay: PropTypes.func.isRequired,
+// };
 
-Game.propTypes = {
-  history: PropTypes.arrayOf(PropTypes.arrayOf(PropTypes.oneOf(['X', 'O', null]))).isRequired,
-  currentMove: PropTypes.number.isRequired,
-  xIsNext: PropTypes.bool.isRequired,
-  currentSquares: PropTypes.arrayOf(PropTypes.oneOf(['X', 'O', null])).isRequired,
-  handlePlay: PropTypes.func.isRequired,
-  jumpTo: PropTypes.func.isRequired,
-};
+// Game.propTypes = {
+//   history: PropTypes.arrayOf(PropTypes.arrayOf(PropTypes.oneOf(['X', 'O', null]))).isRequired,
+//   currentMove: PropTypes.number.isRequired,
+//   xIsNext: PropTypes.bool.isRequired,
+//   currentSquares: PropTypes.arrayOf(PropTypes.oneOf(['X', 'O', null])).isRequired,
+//   handlePlay: PropTypes.func.isRequired,
+//   jumpTo: PropTypes.func.isRequired,
+// };
